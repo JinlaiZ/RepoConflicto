@@ -31,10 +31,7 @@ public final class App {
 
     // Logica de Negocio
     public final void launchApp() {
-        System.out.printf("Installation directory for Java Runtime Environment (JRE) %s%n", System.getProperty("java.home"));
-        System.out.printf("Installation directory for Java Runtime Environment (JRE) %s%n", System.getProperty("os.name"));
-        System.out.printf("Installation directory for Java Runtime Environment (JRE) %s%n", System.getProperty("os.version"));
-        System.out.printf("Installation directory for Java Runtime Environment (JRE) %s%n", System.getProperty("java.class.path"));
+        System.out.println("algo complicado A");
     }
 
 }
